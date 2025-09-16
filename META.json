@@ -1,0 +1,70 @@
+{
+  "category": "databases",
+  "created_date": "2025-09-15T22:48:58.337721",
+  "default_ports": [
+    0,
+    1,
+    30,
+    2048,
+    3306,
+    3307,
+    33060,
+    33061
+  ],
+  "dependencies": [
+    "mysql-server",
+    "mysql-client",
+    "libmysqlclient"
+  ],
+  "description": "MySQL is a free and open-source relational database management system (RDBMS). Originally developed by Michael \"Monty\" Widenius and now owned by Oracle Corporation, MySQL is the world's second-most widely used relational database management system. It serves as a FOSS alternative to commercial databases like Oracle Database, Microsoft SQL Server, or IBM Db2, offering enterprise-grade reliability, performance, and scalability without licensing costs, with features like ACID compliance, transactions, replication, and clustering.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/databases/mysql",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/databases/mysql",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:58.337746",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "mysql",
+  "repository_url": "https://github.com/howtomgr/mysql",
+  "spec_version": "2.0",
+  "subcategory": "databases",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "databases",
+    "observability",
+    "data-storage",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "MySQL Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/databases/mysql"
+}
